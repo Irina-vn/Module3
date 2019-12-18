@@ -1,0 +1,112 @@
+
+@font-face{
+    font-family: "PlayfairDisplay";
+    src: url(font-galary/PlayfairDisplay-Black.ttf);
+    src: url(font-galary/PlayfairDisplay-BlackItalic.ttf);
+    src: url(font-galary/PlayfairDisplay-Bold.ttf);
+    src: url(font-galary/PlayfairDisplay-BoldItalic.ttf);
+    src: url(font-galary/PlayfairDisplay-Italic.ttf);
+    src: url(font-galary/PlayfairDisplay-Regular.ttf);
+}
+
+body{
+    font-family: "PlayfairDisplay";
+}
+
+.menu{
+    margin: 77px 0 0 149px;
+    font-weight: normal;
+    }
+
+.meni-item1{
+    color:#03a9f4;
+    list-style-type: none;
+    display: inline;
+    white-space: nowrap;
+    text-transform: uppercase;
+    margin: 77px 80px;
+    font-size: 14px;
+
+}
+.meni-item{
+    list-style-type: none;
+    display: inline;
+    white-space: nowrap;
+    text-transform: uppercase;
+    margin: 77px 80px;
+    font-size: 14px;
+}
+
+ .content-box1{
+    margin:77px 149px;
+    height: 480px;
+    width: 420px;
+    box-sizing: content-box;
+    display: inline-block;
+    }
+
+.content-box2{
+    position: absolute;
+    left: 60px;
+    margin:77px 627px ;
+    height: 480px;
+    width: 420px;
+    box-sizing: content-box;
+    display: inline-block;
+}
+
+.content-box3{
+    position: absolute;
+    top: 750px;
+    left: 0px;
+    margin: 77px 149px;
+    height: 480px;
+    width: 420px;
+    box-sizing: content-box;
+    display: inline-block;
+    }
+
+.content-box4{
+    position: absolute;
+    left: 60px;
+    top: 700px;
+    margin:130px 627px;
+    height: 480px;
+    width: 420px;
+    box-sizing: content-box;
+    display: inline-block;
+}
+
+.content-box5{
+    position: absolute;
+    top: 1470px;
+    left: 0px;
+    margin:77px 149px;
+    height: 480px;
+    width: 420px;
+    box-sizing: content-box;
+    display: inline-block;
+}
+
+.content-box6{
+    position: absolute;
+    left: 60px;
+    top: 1470px;
+    margin:77px 627px;
+    height: 480px;
+    width: 420px;
+    box-sizing: content-box;
+    display: inline-block;
+}
+
+.button{
+    height: 60px;
+    width: 160px;
+    position: absolute;
+    top: 2200px;
+    left: 500px;
+    font-size: 20px;
+    font-family: "PlayfairDisplay";
+    padding: 10px 10px 10px 10px;
+    box-sizing: content-box;
+    }
