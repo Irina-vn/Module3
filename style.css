@@ -13,42 +13,51 @@ body{
     font-family: "PlayfairDisplay";
 }
 
-.menu{
-    margin: 77px 0 0 149px;
-    font-weight: normal;
-    }
-
-.meni-item1{
-    color:#03a9f4;
-    list-style-type: none;
-    display: inline;
-    white-space: nowrap;
-    text-transform: uppercase;
-    margin: 77px 80px;
-    font-size: 14px;
-
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
 }
-.meni-item{
+
+.list{
+    font-weight: normal;
+    text-align: center;
+    margin-top: 77px;
+    margin-bottom: 100px;
+}
+
+.list-item1{
     list-style-type: none;
     display: inline;
     white-space: nowrap;
     text-transform: uppercase;
-    margin: 77px 80px;
+    margin-right: 60px;
+    margin-left: 60px;
     font-size: 14px;
+}
+
+.list-item1:hover{
+    color: #03a9f4;
+}
+
+.list-item{
+    list-style-type: none;
+    display: inline;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
  .content-box1{
-    margin:77px 149px;
     height: 480px;
     width: 420px;
     box-sizing: content-box;
     display: inline-block;
+    margin: 0px 56px 0px 0px;
     }
 
 .content-box2{
-    position: absolute;
-    left: 60px;
-    margin:77px 627px ;
     height: 480px;
     width: 420px;
     box-sizing: content-box;
@@ -56,21 +65,14 @@ body{
 }
 
 .content-box3{
-    position: absolute;
-    top: 750px;
-    left: 0px;
-    margin: 77px 149px;
     height: 480px;
     width: 420px;
     box-sizing: content-box;
     display: inline-block;
+    margin: 0px 56px 0px 0px;
     }
 
 .content-box4{
-    position: absolute;
-    left: 60px;
-    top: 700px;
-    margin:130px 627px;
     height: 480px;
     width: 420px;
     box-sizing: content-box;
@@ -78,21 +80,14 @@ body{
 }
 
 .content-box5{
-    position: absolute;
-    top: 1470px;
-    left: 0px;
-    margin:77px 149px;
     height: 480px;
     width: 420px;
     box-sizing: content-box;
     display: inline-block;
+    margin: 0px 56px 0px 0px;
 }
 
 .content-box6{
-    position: absolute;
-    left: 60px;
-    top: 1470px;
-    margin:77px 627px;
     height: 480px;
     width: 420px;
     box-sizing: content-box;
@@ -101,12 +96,10 @@ body{
 
 .button{
     height: 60px;
-    width: 160px;
-    position: absolute;
-    top: 2200px;
-    left: 500px;
+    padding: 10px 28px 10px 28px;
     font-size: 20px;
     font-family: "PlayfairDisplay";
-    padding: 10px 10px 10px 10px;
     box-sizing: content-box;
+    text-align: center;
+    margin: 0px 350px 0px 390px;
     }
