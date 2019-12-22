@@ -11,6 +11,7 @@
 
 body{
     font-family: "PlayfairDisplay";
+    color: #626262;
 }
 
 .wrapper{
@@ -25,18 +26,22 @@ body{
     margin-bottom: 100px;
 }
 
-.list-item1{
-    list-style-type: none;
-    display: inline;
-    white-space: nowrap;
-    text-transform: uppercase;
-    margin-right: 60px;
-    margin-left: 60px;
-    font-size: 14px;
+
+.list-item a:hover{
+    color: #03a9f4;
 }
 
-.list-item1:hover{
-    color: #03a9f4;
+.list-item a:focus{
+        color: #03a9f4;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: #626262;
+}    
+
+.list-item:last-child{
+    margin-right: 0px;
 }
 
 .list-item{
@@ -45,60 +50,42 @@ body{
     white-space: nowrap;
     text-transform: uppercase;
     font-size: 14px;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 120px;
+  }
+
+.all-card{
+    font-size: 0px;
+    vertical-align: top;
 }
 
- .content-box1{
-    height: 480px;
+.card{
+    min-height: 480px;
     width: 420px;
     box-sizing: content-box;
     display: inline-block;
-    margin: 0px 56px 135px 0px;
+    font-size: 14px;
+    margin-bottom: 126px;
+   }
+
+.card:nth-of-type(2n){
+        margin-right: 0px;
+        margin-left: 60px;
+    }
+    
+.card:nth-last-child(-n+2){
+        margin-bottom: 0px;
     }
 
-.content-box2{
-    height: 480px;
-    width: 420px;
-    box-sizing: content-box;
-    display: inline-block;
-}
-
-.content-box3{
-    height: 480px;
-    width: 420px;
-    box-sizing: content-box;
-    display: inline-block;
-    margin: 0px 56px 135px 0px;
+.all-card{
+        margin-bottom: 50px;
     }
-
-.content-box4{
-    height: 480px;
-    width: 420px;
-    box-sizing: content-box;
-    display: inline-block;
-}
-
-.content-box5{
-    height: 480px;
-    width: 420px;
-    box-sizing: content-box;
-    display: inline-block;
-    margin: 0px 56px 55px 0px;
-}
-
-.content-box6{
-    height: 480px;
-    width: 420px;
-    box-sizing: content-box;
-    display: inline-block;
-}
 
 .button{
-    height: 60px;
-    padding: 10px 28px 10px 28px;
+    height: 58px;
+    min-width: 166px;
     font-size: 20px;
     font-family: "PlayfairDisplay";
+    color: #626262;
     box-sizing: content-box;
     text-align: center;
     margin: 0px 350px 0px 390px;
